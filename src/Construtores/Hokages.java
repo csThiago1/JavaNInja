@@ -1,6 +1,6 @@
 package Construtores;
 
-public class Hokages {
+public abstract class Hokages {
 
     String nome;
     int idade;
@@ -9,6 +9,8 @@ public class Hokages {
     int missoes;
     double saldoBancario;
     double altura;
+
+    public abstract void sabedoriaHokage();
 
     public Hokages(String nome, int idade, boolean vivoOuMorto, String aldeia, int missoes, double saldoBancario, double altura) {
         this.nome = nome;
